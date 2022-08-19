@@ -1,0 +1,7 @@
+1,2c1,3
+< 333
+< 12
+---
+> Error in /home/tejesh/Zesktop/cs3300-lab/A5/test/./mips/Test.s line 223 column 14: Symbol "fall" not found in symbol table.
+> 
+> Processing terminated due to errors.

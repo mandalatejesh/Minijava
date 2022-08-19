@@ -1,0 +1,10 @@
+RED='\033[0;31m';
+NC='\033[0m';
+GREEN='\033[0;32m';
+
+   javac A5.java;
+find ./test/miniRA -type f -name "*.miniRA" | while read tin; do
+tin="${tin%.*}"
+input=${tin:14};
+   java A5 < ./test/miniRA/$input.miniRA > ./test/mips/$input.s
+  done
